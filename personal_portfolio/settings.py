@@ -131,4 +131,4 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 try:
     from .local_settings import *
 except ImportError:
-    print("Looks like no local file. You must be on productio server")
+    print("Looks like no local file. You must be on production server")
